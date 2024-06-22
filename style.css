@@ -1,0 +1,36 @@
+body {
+  background-color: #fab22a;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  text-align: center;
+  border-radius: 8px;
+  padding: 30px;
+}
+.box .icon img {
+  width: 100px;
+}
+.box .joke {
+  padding: 50px;
+  color: #fafafa;
+  font-size: 20px;
+  line-height: 1.4;
+  opacity: 0;
+}
+.fade {
+  opacity: 1 !important;
+  transition: opacity 2s;
+}
+.box .generate {
+  background-color: #fab22a;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+}
